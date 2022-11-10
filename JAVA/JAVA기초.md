@@ -17,9 +17,9 @@
 - bit : 컴퓨터가 표현하는 데이터의 최소 단위로 2진수 하나의 값을 저장할 수 있는 메모리 크기
 - byte : 1byte = 8bit
 
-![2.jpg]("C:\Users\user\Desktop\블로그 올릴 사진\자바 스터디\2.jpg")
+![2](https://user-images.githubusercontent.com/48826098/201009497-8c77a4d9-c253-4dde-91dd-39d5aa5f75fc.jpg)
 
-![16.jpg]("C:\Users\user\Desktop\블로그 올릴 사진\자바 스터디\16.jpg")
+![16](https://user-images.githubusercontent.com/48826098/201009513-bda9f9a2-ee16-42fe-8c15-e1026fd96e3a.jpg)
 
 > **16진수는 왜 쓰는건가?**
 2진수로 표현을 하는데 너~~~무 길기도 해서
@@ -63,9 +63,8 @@ int level = 20;
 
 ### 자료형
 
-![자료형.jpg]("C:\Users\user\Desktop\블로그 올릴 사진\자바 스터디\자료형 크기.jpg")
-
-![자료형 크기.jpg]("C:\Users\user\Desktop\블로그 올릴 사진\자바 스터디\자료형.jpg")
+![자료형 크기](https://user-images.githubusercontent.com/48826098/201009544-271fb238-ab09-4fbc-8a98-d65abd76408c.jpg)
+![자료형](https://user-images.githubusercontent.com/48826098/201009551-f696be09-4699-4f50-a418-e34840716861.jpg)
 
 > long사용할 때는 숫자 뒤에 L(or l)을 써 줘야 됨
 > 
@@ -150,9 +149,7 @@ int num2 = (int)num;
 9. 비트 연산자
 
 ### 연산자 우선 순위
-
-![연산자 우선순위.jpg]("C:\Users\user\Desktop\블로그 올릴 사진\자바 스터디\연산자 우선순위.jpg")
-
+![연산자 우선순위](https://user-images.githubusercontent.com/48826098/201009557-6c9d361b-edc1-4515-bfe4-956c61f75765.jpg)
 ---
 
 ## 제어의 흐름 이해하기
