@@ -17,11 +17,10 @@
 - bit : 컴퓨터가 표현하는 데이터의 최소 단위로 2진수 하나의 값을 저장할 수 있는 메모리 크기
 - byte : 1byte = 8bit
 
+![2](https://user-images.githubusercontent.com/48826098/201009497-8c77a4d9-c253-4dde-91dd-39d5aa5f75fc.jpg)
 
-<figure class="half">
-    <img src="https://user-images.githubusercontent.com/48826098/201009497-8c77a4d9-c253-4dde-91dd-39d5aa5f75fc.jpgg">
-    <img src="https://user-images.githubusercontent.com/48826098/201009513-bda9f9a2-ee16-42fe-8c15-e1026fd96e3a.jpg">
-figure>
+![16](https://user-images.githubusercontent.com/48826098/201009513-bda9f9a2-ee16-42fe-8c15-e1026fd96e3a.jpg)
+
 
 > **16진수는 왜 쓰는건가?**
 2진수로 표현을 하는데 너~~~무 길기도 해서
