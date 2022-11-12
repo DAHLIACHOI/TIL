@@ -161,7 +161,7 @@ class Birthday{
 ## static 변수
 
 ```java
-**static** int serialNum;
+static int serialNum;
 ```
 
 - 여러 개의 인스턴스가 같은 메모리의 값을 공유하기 위해 사용
