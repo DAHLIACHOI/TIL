@@ -65,23 +65,21 @@
     
     **`➕ 정리된 링크`**
     
-    [리눅스(Linux)는 무엇이고 우분투(Ubuntu)는 무엇인가 - 하나몬](https://hanamon.kr/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%9A%B0%EB%B6%84%ED%88%AC%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
+    [리눅스(Linux)는 무엇이고 우분투(Ubuntu)는 무엇인가 - 하나몬](https://hanamon.kr/%EB%A6%AC%EB%88%85%EC%8A%A4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%9A%B0%EB%B6%84%ED%88%AC%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/"리눅스 vs 우분투")
     
 ## 리눅스 명령어
     
-    [리눅스 명령어 모음 BEST 50 초보자 및 전문가용 - 도라가이드](https://dora-guide.com/linux-commands/)
+    [리눅스 명령어 모음 BEST 50 초보자 및 전문가용 - 도라가이드](https://dora-guide.com/linux-commands/ "리눅스 명령어")
     
 ## 리눅스 디렉토리 구조
     
-    ![[https://coding-factory.tistory.com/499](https://coding-factory.tistory.com/499)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d92169a-69b1-40b3-9298-4fba1c115857/Untitled.png)
-    
-    [https://coding-factory.tistory.com/499](https://coding-factory.tistory.com/499)
+    [리눅스 디렉토리 구조 블로그 링크](https://coding-factory.tistory.com/499 "리눅스 디렉토리 구조")
     
 ## vi(vim) 편집기 사용법
     
-    [[vi 명령어] vi 명령어 정리](https://blockdmask.tistory.com/25)
+    [[vi 명령어] vi 명령어 정리](https://blockdmask.tistory.com/25"vi 명령어 정리 링크")
     
-    [[Linux] vi 편집기 사용법 및 명령어](https://velog.io/@zeesoo/Linux-vi-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EB%AA%85%EB%A0%B9%EC%96%B4)
+    [[Linux] vi 편집기 사용법 및 명령어](https://velog.io/@zeesoo/Linux-vi-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EB%AA%85%EB%A0%B9%EC%96%B4 "vi 명령어")
     
 ## Web Server(WS)와 Web Application Server(WAS)
     - WS
@@ -106,7 +104,7 @@
         - 응용 체제는 실행되는 응용 프로그램들이 메모리와 CPU, 입출력 장치 등의 자원들을 사용할 수 있도록 만들어 준다. 더불어 이들은 추상화 하여 파일 시스템 등의 서비스를 제공한다.
         - + )
         
-        [운영 체제 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
+        [운영 체제 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C"운영체제")
         
     - Window, MacOS
         - Window
