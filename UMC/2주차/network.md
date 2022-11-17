@@ -49,8 +49,7 @@
         Internet Protocal version6. IPv6주소는 128 비트체계로 구성되어 있다.기존의 IPv4 의 32비트 주소보다 4배나 많은 정보를 수용할 수 있는 차세대 IP이다.표현방법은 128비트는 16비트씩 8부분으로 나누어 각 부분을 콜론(:)으로 구분하여 표현하며 각 16진수로 표현한다.
         ex) 0:0:0:0:0:0:0:1
         ```
-        
-        ![다운로드.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df057579-3da3-45c3-b5d5-d59045752b63/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png)
+
         
     - DNS를 사용하는이유 : DNS는 도메인 네임 시스템(Domain Name System)이다. ip는 기억하기 어렵고 변경될 수 있다. 이런 일로 발생할 수 있는 문제를 미리 방지해주는 것이 DNS이다. → DNS서버에 도메인을 IP주소로 변경해서 저장한다.
     - 외부 IP와 내부 IP
@@ -128,16 +127,11 @@
         - 데이터의 전송 에러 등을 복구해주는 기능들을 가짐
         - 아래의 스위치 구성을 보면 허브와는 달리 정해진 목적에만 데이터를 전송하고 있음
         
-        ![[https://coding-chobo.tistory.com/38](https://coding-chobo.tistory.com/38)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18090ce4-e3c0-4e71-8419-f40c41cad065/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C_(1).png)
-        
-        [https://coding-chobo.tistory.com/38](https://coding-chobo.tistory.com/38)
+        [참고](https://coding-chobo.tistory.com/38  "허브 라우터...")
         
     - 공유기
         - ISP(Internet Service Provider)업체에서 제공하는 한 개의 인터넷IP Address로 여러 대의 컴퓨터, 노트북, IP폰 등이 인터넷을 공유할 수 있게 한다.
         - 공유기를 사용하면 ISP에서 할당받은 하나의 공인 IP Address를 내부 네트워크에서 여러 개의 IP주소로 변환 사용가능하기 때문에, 한 대의 컴퓨터에서만 인터넷 접속이나 외부 네트워크와 연결되던 것을 내부 IP값으로 최대 253대까지 동시에 인터넷 접속이 가능하다.
-        
-        ![공유기 구성
-        외부에서 들어오는 공인IP의 LAN선을 WAN포트에 연결하고, 나머지 LAN포트들은 내부IP로 사용할 장치들에 LAN선을 연결하는 것이 일반적인 사용법이다.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24dad252-24ba-4ecf-bfd9-8205d05c3695/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C_(2).png)
         
         공유기 구성
         외부에서 들어오는 공인IP의 LAN선을 WAN포트에 연결하고, 나머지 LAN포트들은 내부IP로 사용할 장치들에 LAN선을 연결하는 것이 일반적인 사용법이다.
