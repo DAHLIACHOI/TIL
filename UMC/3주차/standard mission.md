@@ -1,13 +1,11 @@
-<aside>
-💡 **Standard Mission**
+**Standard Mission**
 
 1. AWS Elastic IP 적용하여 http 외부접속 가능하게 Nginx, php, mysql 설치
 2. RDS로 데이터베이스 (MySQL) 생성 후 외부(DataGrip, Workbench 등)에서 접속가능하게 만들기
 3. domain 연결 (가비아, 후이즈 등)
 4. https 적용(Let's Encrypt)
 
-</aside>
-
+</hr>
 
 ### `ec2 인스턴스 생성`
 
