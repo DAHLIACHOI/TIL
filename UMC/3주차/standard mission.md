@@ -5,7 +5,7 @@
 3. domain 연결 (가비아, 후이즈 등)
 4. https 적용(Let's Encrypt)
 
-</hr>
+<hr/>
 
 ### `ec2 인스턴스 생성`
 
