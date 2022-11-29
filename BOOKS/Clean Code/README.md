@@ -6,3 +6,4 @@ Robert C. Martin의 Clean Code를 읽고 정리했습니다.
 
 ---
 
+[ch.1 깨끗한 코드](https://github.com/DAHLIACHOI/TIL/blob/main/BOOKS/Clean%20Code/ch%201.%20%EA%B9%A8%EB%81%97%ED%95%9C%20%EC%BD%94%EB%93%9C.md)
