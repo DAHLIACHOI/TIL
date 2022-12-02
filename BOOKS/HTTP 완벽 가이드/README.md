@@ -5,3 +5,6 @@
 
 O'REILLY의 HTTP 완벽 가이드를 읽고 정리했습니다.
 
+---
+
+https://github.com/DAHLIACHOI/TIL/blob/main/BOOKS/HTTP%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C/%5Bch.1%20%EC%9B%B9%EC%9D%98%20%EA%B8%B0%EC%B4%88%5D%2001%20HTTP%20%EA%B0%9C%EA%B4%80.md
