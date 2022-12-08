@@ -103,10 +103,12 @@ public List<int[]> gatFlaggedCells(){
 - 여러 계정을 묶을 때 실제 List가 아니라면 List라는 이름을 사용해서도 안된다.
 - 서로 흡사한 이름을 사용하지 않도록 주의한다.
 - 유사한 개념은 유사한 표기법을 사용한다. → 일관성이 떨어지는 표기법은 `그릇된 정보`이다.
-<br><br>
+<br>
+
 🌱 이름으로 그릇된 정보를 제공하는 끔찍한 예가 소문자 L이나 대문자 O이다. 
 
 **why? 소문자 L은 숫자 1처럼 보이고, 대문자 O는 숫자 0처럼 보이기 때문이다.**
+<<<<<<< HEAD
 
 <br><br>
 
@@ -123,3 +125,5 @@ public List<int[]> gatFlaggedCells(){
 > `getActiveAccount()`, `getActiveAccounts()`, `getActiveAccountInfo()` 중에 이 프로젝트에 참여한 프로그래머는 어느 함수를 호출할지 어떻게 알까? 
 
 **⭐ 읽는 사람이 차이를 알도록 이름을 지어라**
+=======
+>>>>>>> 4f413045c28c8727b1657788f25b84542b162dff
