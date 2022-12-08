@@ -108,7 +108,6 @@ public List<int[]> gatFlaggedCells(){
 🌱 이름으로 그릇된 정보를 제공하는 끔찍한 예가 소문자 L이나 대문자 O이다. 
 
 **why? 소문자 L은 숫자 1처럼 보이고, 대문자 O는 숫자 0처럼 보이기 때문이다.**
-<<<<<<< HEAD
 
 <br><br>
 
@@ -125,5 +124,4 @@ public List<int[]> gatFlaggedCells(){
 > `getActiveAccount()`, `getActiveAccounts()`, `getActiveAccountInfo()` 중에 이 프로젝트에 참여한 프로그래머는 어느 함수를 호출할지 어떻게 알까? 
 
 **⭐ 읽는 사람이 차이를 알도록 이름을 지어라**
-=======
->>>>>>> 4f413045c28c8727b1657788f25b84542b162dff
+
