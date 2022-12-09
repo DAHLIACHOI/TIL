@@ -2,6 +2,7 @@
 - [의도를 분명히 밝혀라](#의도를-분명히-밝혀라)
 - [그릇된 정보를 피하라](#그릇된-정보를-피하라)
 - [의미있게 구분하라](#의미-있게-구분하라)
+- [발음하기 쉬운 이름을 사용하라](#발음하기-쉬운-이름을-사용하라)
 
 ---
 
@@ -125,3 +126,33 @@ public List<int[]> gatFlaggedCells(){
 
 **⭐ 읽는 사람이 차이를 알도록 이름을 지어라**
 
+
+<br><br>
+
+# 발음하기 쉬운 이름을 사용하라
+
+```java
+class DtaRcrd102{
+	private Date genymdhms;
+	private Date modymdhms;
+	private final String qszqint = "102";
+};
+```
+
+```java
+class Customer{
+	private Date generationTimestamp;
+	private Date modificationTimestamp;
+	private final String recordId = "102";
+};
+```
+
+둘 중 비교해보자. 무엇이 더 좋은 코드이겠는가?
+
+첫 번째도 충분히 사용가능 할 수 있다. 
+
+실제로 어느 회사는 genymdhms(generate date, year, month, day, hour, minute, second)라는 단어를 사용한다. 이 단어를 말하기 쉽게 “젠 와이 엠 디 에이취 엠 에스”라고 발음하거나 “젠 야 무다 힘즈”라고 발음 할 수도 있다. 
+
+하지만 이 단어는 새로운 직원이 온다면 일일이 설명을 해주어야 한다.
+
+**따라서, 지적인 대화가 가능하게 하려면 두 번째 처럼 generationTimestamp같은 단어를 사용하자.**
