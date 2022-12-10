@@ -3,6 +3,7 @@
 - [그릇된 정보를 피하라](#그릇된-정보를-피하라)
 - [의미있게 구분하라](#의미-있게-구분하라)
 - [발음하기 쉬운 이름을 사용하라](#발음하기-쉬운-이름을-사용하라)
+- [검색하기 쉬운 이름을 사용하라](#검색하기-쉬운-이름을-사용하라)
 
 ---
 
@@ -156,3 +157,39 @@ class Customer{
 하지만 이 단어는 새로운 직원이 온다면 일일이 설명을 해주어야 한다.
 
 **따라서, 지적인 대화가 가능하게 하려면 두 번째 처럼 generationTimestamp같은 단어를 사용하자.**
+
+<br><br>
+
+# 검색하기 쉬운 이름을 사용하라
+
+문자 하나를 사용하는 이름과 상수는 텍스트 코드에서 쉽게 눈에 띄지 않는다는 문제점이 있다.
+
+🌱 `e` 라는 문자는 변수 이름으로 적절하지 않다. 영어에서 가장 많이 쓰이는 문자이다. 
+
+따라서 검색이 어렵다. **이런 관점에서는긴 이름이 짧은 이름보다 좋다.**
+<br>
+
+**즉 검색하기 쉬운 이름이 상수보다 좋다.**
+
+```java
+for (int j = 0; j <34; j++){
+	s += (t[j]*4)/5;
+}
+```
+
+```java
+int realDaysPerIdealDay = 4;
+const int WORK_DAYS_PER_WEEKS = 5;
+int sum = 0;
+for (int j = 0; j <NUMBER_OF_TASKS; j++){
+	int realTaskDays = taskEsimate[j] + realDaysPerIdealDay;
+	int realTaskWeeks = (realTaskDays / WORK_DAYS_PER_WEEKS);
+	sum += realTaskWeeks;
+}
+```
+
+> 위 두 코드를 비교해보자. s대신 사용한 sum은 유용한 기능은 아니지만 최소한 검색은 가능하다.
+하지만, WORK_DAYS_PER_WEEK를 찾기는 얼마나 쉬운가
+> 
+<br>
+⭐ **변수나 상수를 코드 여러 곳에서 사용한다면 검색하기 쉬운 이름을 사용하는 것이 바람직하다.**
