@@ -296,9 +296,9 @@ customer.setName("mike");
 if (paycheck.isPost()) ...
 ```
 
-> 접근자 → get
-변경자 → set
-조건자 → is
+> 접근자 → get <br>
+변경자 → set <br>
+조건자 → is <br>
 > 
 
 **🌱 생성자를 중복정의할 때는 정적 팩토리 메서드를 사용한다.**
