@@ -16,6 +16,7 @@
 - [말장난을 하지 마라](#말장난을-하지-마라)
 - [해법 영역에서 가져온 이름을 사용하라](#해법-영역에서-가져온-이름을-사용하라)
 - [문제 영역에서 가져온 이름을 사용하라](#문제-영역에서-가져온-이름을-사용하라)
+- [의미 있는 맥락을 추가하라](#의미-있는-맥락을-추가하라)
 
 ---
 
@@ -378,3 +379,91 @@ Complex fulcrumPoint = new Complex(23.0);
 > 우수한 프로그래머와 설계자라면 해법 영역과 문제 영역은 구분할 줄 알아야 한다. 
 문제 영역과 관련된 코드라면 문제 영역에서 이름을 가져온다.
 >
+
+
+<br><br>
+
+# 의미 있는 맥락을 추가하라
+
+firstName, lastName, street, houseNumber를 쭉 훑어보면 주소 변수를 의미한다는 것을 알 수 있다. 하지만 firstName만 사용한다면 무슨 의미인지 알 수 있을까?
+
+이럴 때는 addr라는 접두어를 추가하면 무슨 의미인지 알 수 있다.
+
+이렇게 맥락을 추가하는 것이 좋다.
+
+```java
+private void printGuessStatistics(char candidate, int count){
+	String number;
+	String verb;
+	String pluralModifier;
+	if (count == 0){
+		number = "no";
+		verb = "are";
+		pluralModifier = "s";
+	} else if (count == 1){
+		number = "1";
+		verb = "is";
+		pluralModifier = "";
+	} else{
+		number = Integer.toString(count);
+		verb = "are";
+		pluralModifier = "s";
+	}
+	String guessMessage = String.format("There %s %s %s%s", verb, number, candidate, pluralModifier);
+	print(guessMessage);
+}
+```
+
+> 이 코드에서 함수는 맥락 일부만을 제공하며 알고리즘이 나머지 맥락을 제공한다. 
+다 읽고 나서야 `number`, `verb`, `pluralModifier` 라는 변수가 `통계 추측` 에 사용된다는 것을 알 수 있다. 독자가 맥락을 유추해야 한다는 뜻이다.
+> 
+
+<br>
+
+맥락이 분명해지게 만들어보자.
+
+GuessStaticsMessage라는 클래스를 만들고 변수를 클래스에 넣어서 맥락을 분명하게 만든다.
+
+```java
+public class GuessStaticsMessage{
+	private String number;
+	private String verb;
+	private String pluralModifier;
+
+	public String make(char candidate, int count){
+		createPluralDependentMessage(count);
+		return String.format("There %s %s %s%s", verb, number, candidate, pluralModifier);
+	}
+
+	private void createPluralDependentMessageParts(int count){
+		if (count == 0){
+			threrAreNoLetters();
+		}else if (count == 1){
+			thereIsOneLetter();
+		}else{
+			thereAreManyLetters();
+		}
+	}
+
+	private void thereAreManyLetters(int count){
+		number = Integer.toString(count);
+		verb = "are";
+		pluralModifier = "s";
+	}
+	
+	private void thereIsOneLetter(){
+		number = "1";
+		verb = "is";
+		pluralModifier = "";
+	}
+
+	private void thereNoLetters(){
+		number = "no";
+		verb = "are";
+		pluralModifier = "s";
+	}
+}
+```
+<br>
+
+**⭐ 대다수의 이름은 스스로 의미가 분명하지 않다. 따라서 클래스, 함수, 이름 공간에 넣어 맥락을 부여한다. 모든 방법이 실패하면 마지막 수단으로 접두어를 붙인다.**
